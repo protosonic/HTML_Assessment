@@ -25,10 +25,8 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		<h1>TABLE</h1>
-
-		<!-- REMOVE BORDER AFTER WORKING LAYOUT -->
 			<table>
-				<thread>
+				<thead>
 					<!-- row 1 -->
 					<tr>
 						<th></th>
@@ -43,7 +41,7 @@
 						<th></th>
 						<th>First</th>
 						<th>Half</th>
-						<th colspand="2">Second</th>
+						<th>Second</th>
 						<th>Half</th>
 						<th rowspan="2">Final</th>
 					</tr>
@@ -202,29 +200,35 @@
 						</td>
 					</tr>
 
-				</thread>
+				</thead>
 			</table>
 		<h1>List</h1>
 			<ul>
-				<li>[TEAM #1 IMAGE] attach Link to image? (see assignment)</li>
-				<ul type="circle">
-					<li>Coach: Gary Kubiak</li>
-					<li>QB</li>
-					<ol>
-						<li>Brock Osweiler</li>
-						<li>Trevor Siemian</li>
-						<li>Peyton Manning</li>
-					</ol>
-				</ul>
-				<li>[TEAM #2 IMAGE] attach Link to image? (see assignment)</li>
-				<ul type="circle">
-					<li>Coach: Gary Kubiak</li>
-					<li>QB</li>
-					<ol>
-						<li>Jay Cutler</li>
-						<li>David Foles</li>
-					</ol>
-				</ul>
+				<li><img src="images/broncos_logo.png" width="50" height="auto">
+					<br> 
+					<a href="https://en.wikipedia.org/wiki/Denver_Broncos" target="_blank">Denver Broncos</a>
+					<ul type="circle">
+						<li>Coach: Gary Kubiak</li>
+						<li>QB</li>
+							<ol>
+								<li>Brock Osweiler</li>
+								<li>Trevor Siemian</li>
+								<li>Peyton Manning</li>
+							</ol>
+					</ul>
+				<li><img src="images/bears_logo.png" width="50" height="auto">
+					<br>
+					<a href="https://en.wikipedia.org/wiki/Chicago_Bears" target="_blank">Chicago Bears</a>
+					
+				</li>
+					<ul type="circle">
+						<li>Coach: Gary Kubiak</li>
+						<li>QB</li>
+							<ol>
+								<li>Jay Cutler</li>
+								<li>David Foles</li>
+							</ol>
+					</ul>
 			</ul>
 		<h1>Form</h1>
 			<form method="post" action="">
@@ -246,7 +250,7 @@
 			<br>
 			I have:
 			<input type="checkbox" id="attended" name="userhas" value="attended"> 
-			<label for="atteneded">Attended</label>
+			<label for="attended">Attended</label>
 
 			<input type="checkbox" id="played" name="userhas" value="played"> 
 			<label for="played">Played</label>
