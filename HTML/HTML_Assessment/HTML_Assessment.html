@@ -5,7 +5,7 @@
 	<body>
 			<h1>TEXT</h1>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -26,52 +26,249 @@
 			</p>
 		<h1>TABLE</h1>
 
-		<!-- REMOVE BORDER AFTER -->
-			<table border="1">
+		<!-- REMOVE BORDER AFTER WORKING LAYOUT -->
+			<table>
 				<thread>
+					<!-- row 1 -->
 					<tr>
 						<th></th>
-						<td>Scores by quarter</td>
-						<th>3</th>
-						<th>4</th>
-						<th>5</th>
-						<th>6</th>
-						<th>7</th>
-
-					</tr>
-					<tr>
 						<th></th>
-						<th>First Half</th>
-						<th>Second Half</th>
-						<th></th>
-						<th></th>
-						<th></th>
+						<td colspan="4">Scores by quarter</td>
 						<th></th>
 
 					</tr>
+					<!-- row 2 -->
 					<tr>
-						<th>Team Nam e</th>
-						<th>2</th>
-						<th>3</th>
-						<th>4</th>
-						<th>5</th>
-						<th>6</th>
+						<th rowspan="2">Team Nam e</th>
+						<th></th>
+						<th>First</th>
+						<th>Half</th>
+						<th colspand="2">Second</th>
+						<th>Half</th>
+						<th rowspan="2">Final</th>
+					</tr>
+					<!-- row 3 -->
+					<!-- <tr>
+						<th colspan="3">Team Nam e</th>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th></th>
 						<th>Final</th>
+					</tr> -->
 
 					</tr>
+					<!-- row 4 --> 
 					<tr>
-						<th></th>
 						<th></th>
 						<th>Q1</th>
-						<th></th>
 						<th>Q2</th>
-						<th></th>
 						<th>Q3</th>
-						<th></th>
 						<th>Q4</th>
+						<th></th>
+						<th></th>
 					</tr>
+					<!-- row 5 -->
+					<tr>
+						<td colspan="2">Denver</td>
+						<td>
+							<table>
+								<tr>
+									<td>7</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td>3</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td>0</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td>7</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td>17</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!-- row 6 -->
+					<tr>
+						<td colspan="2">Chicago</td>
+						<td>
+							<table>
+								<tr>
+									<td>0</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td>6</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td>3</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td>6</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td>15</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!-- row 7 -->
+					<tr>
+						<th>Total</th>
+						<th></th>
+						<td>
+							<table>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<th>7</th>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<th>9</th>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<th>3</th>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<th>13</th>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<th>32</th>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
 				</thread>
 			</table>
+		<h1>List</h1>
+			<ul>
+				<li>[TEAM #1 IMAGE] attach Link to image? (see assignment)</li>
+				<ul type="circle">
+					<li>Coach: Gary Kubiak</li>
+					<li>QB</li>
+					<ol>
+						<li>Brock Osweiler</li>
+						<li>Trevor Siemian</li>
+						<li>Peyton Manning</li>
+					</ol>
+				</ul>
+				<li>[TEAM #2 IMAGE] attach Link to image? (see assignment)</li>
+				<ul type="circle">
+					<li>Coach: Gary Kubiak</li>
+					<li>QB</li>
+					<ol>
+						<li>Jay Cutler</li>
+						<li>David Foles</li>
+					</ol>
+				</ul>
+			</ul>
+		<h1>Form</h1>
+			<form method="post" action="">
+				<label for="fname">First:</label>
+				<input type="text" name="fname" id="fname">
 
+				<label for="lname">Last:</label>
+				<input type="text" name="lname" id="lname">
+			<br>
+			<label for="sport">Favorite Sport:</label>
+			<br>
+			<select name="sport" id="sport">
+				<option value="soccer">Soccer</option>
+				<option value="baseball">Baseball</option>
+				<option value="tennis">Tennis</option>
+				<option value="skydiving">Skydiving</option>
+				<option value="streaking">Professional Streaking</option>
+			</select>
+			<br>
+			I have:
+			<input type="checkbox" id="attended" name="userhas" value="attended"> 
+			<label for="atteneded">Attended</label>
+
+			<input type="checkbox" id="played" name="userhas" value="played"> 
+			<label for="played">Played</label>
+
+			<input type="checkbox" id="coached" name="userhas" value="coached">  
+			<label for="coached">Coached</label>
+
+			<input type="checkbox" id="bet" name="userhas" value="bet">
+			<label for="bet">Bet on</label>
+			<br> For this sport.
+			<br>
+			For this sport I prefer the:
+			<input name="preference" id="amateur" type="radio" value="amateur">
+			<label for="amateur">Amateur</label>
+
+			<input name="preference" id="college" type="radio" value="college">
+			<label for="college">College</label>
+
+			<input name="preference" id="professional" type="radio" value="professional">
+			<label for="professional">Professional</label>
+			<br>
+			<input type="submit" name="submit" value="Submit Query"> 
+		</form>
 	</body>
 </html>
