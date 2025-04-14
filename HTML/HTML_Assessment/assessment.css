@@ -53,14 +53,14 @@ blockquote {
 	display: none;
 }
 
-#teamRoster > li:first-child { /* edit: added transparent gradient to team background images to improve  roster readability */
+#teamRoster > li:first-child { /* stretch goal #3 */
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
 	background-repeat: no-repeat;
 	background-size: 160px;
 /*	padding-left: 160px;*/
 }
 
-#teamRoster > li:last-child { /* edit: added transparent gradient to team background images to improve  roster readability */
+#teamRoster > li:last-child { /* stretch goal #3 */
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
 	background-repeat: no-repeat;
 	background-size: 160px;
